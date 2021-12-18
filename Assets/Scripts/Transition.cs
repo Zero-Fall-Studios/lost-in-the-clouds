@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Experimental.Rendering.Universal;
 
+
 public enum TweenLoopType { Clamp, Once, PingPong };
 
 [AddComponentMenu("RFG/Transitions/Transition")]
