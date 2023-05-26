@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 
 public enum TweenLoopType { Clamp, Once, PingPong };
@@ -11,7 +11,7 @@ public class Transition : MonoBehaviour
 
   [Header("Material Settings")]
   [field: SerializeField] private string materialProperty;
-  [field: SerializeField] private Light2D light2D;
+  [field: SerializeField] private UnityEngine.Rendering.Universal.Light2D light2D;
   [field: SerializeField] private float startingValue = 0f;
 
   [Header("Tween Settings")]
